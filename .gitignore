@@ -29,8 +29,7 @@ Thumbs.db
 *.bak
 *~
 
-# Build directories that might contain compiled packages
-*/com/*/
+# Build directories
 build/
 target/
 dist/
