@@ -31,7 +31,7 @@ public class DoubleEndedStack<T> {
 	public void rightShift() {
 		int temp = rear;
 		while(rear>=front) {
-			queue[rear+1] = queue[rear];
+			stack[rear+1] = stack[rear];
 			rear--;
 		}
 		rear = temp+1;
