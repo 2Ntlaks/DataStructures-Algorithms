@@ -37,6 +37,11 @@ public class ParenthesesChecker {
 			flag=false;
 		}
 		
+		// Check if stack is empty at the end for perfect pattern
+		if(flag && !myStack1.isEmpty()) {
+			flag = false;
+		}
+		
 		if(flag)
 			System.out.println("Perfect Pattern.");
 		else
